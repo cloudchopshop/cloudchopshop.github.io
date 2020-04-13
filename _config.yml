@@ -36,8 +36,8 @@ swiftype:
   searchId: 
 gitment:
     repo: cloudchopshop.github.io
-    client_id: ac08f391fc8a43107f95
-    client_secret: dbd8c97230b942da52f4bd59d3f98ab60ad52aeb
+    client_id: 
+    client_secret: 
 
 url: "https://cloudchopshop.github.io"
 imgrepo: "https://cloudchopshop.github.io/static/img"

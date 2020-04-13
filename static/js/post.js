@@ -3,7 +3,7 @@
 ---
 
 /**
- * 页面ready方法
+ * Page Ready Method
  */
 $(document).ready(function() {
     generateContent();
@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 /**
- * 侧边目录
+ * Side Directory
  */
 function generateContent() {
     var $mt = $('.toc');
@@ -27,7 +27,7 @@ function share(){
     with(document)0[getElementsByTagName("script")[0].parentNode.appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
 }
 
-
+/** 
 function gitment() {
     var gitment = new Gitment({
         id: window.location.pathname,
@@ -41,5 +41,5 @@ function gitment() {
     gitment.render('post-comment')
     $("#post-comment").removeClass('hidden');
 }
-
+*/
 

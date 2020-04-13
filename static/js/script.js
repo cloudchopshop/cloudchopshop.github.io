@@ -3,25 +3,27 @@
 ---
 
 /**
- * 页面ready方法
+ * Page Ready Method
  */
+/** 
+
 $(document).ready(function() {
 
-    console.log("你不乖哦，彼此之间留点神秘感不好吗？");
+    console.log("?");
 
     backToTop();
     search();
 });
-
+*/
 /**
- * 回到顶部
+ * backtotop
  */
 function backToTop() {
     $("[data-toggle='tooltip']").tooltip();
     var st = $(".page-scrollTop");
     var $window = $(window);
     var topOffset;
-    //滚页面才显示返回顶部
+    //scroll to page
     $window.scroll(function() {
         var currnetTopOffset = $window.scrollTop();
         if (currnetTopOffset > 0 && topOffset > currnetTopOffset) {
@@ -32,14 +34,14 @@ function backToTop() {
         topOffset = currnetTopOffset;
     });
 
-    //点击回到顶部
+    //On Clicl back to top
     st.click(function() {
         $window.scrollTop(0)
     });
 
 
 }
-
+/** 
 function search(){
     (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
         (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
@@ -48,7 +50,7 @@ function search(){
 
     _st('install','{{site.swiftype.searchId}}','2.0.0');
 }
-
+*/
 
 
 
