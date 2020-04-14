@@ -5,7 +5,7 @@
 /**
  * Page Ready Method
  */
-/** 
+ 
 
 $(document).ready(function() {
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
     backToTop();
     search();
 });
-*/
+
 /**
  * backtotop
  */
