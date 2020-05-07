@@ -21,6 +21,9 @@ layout: default
           <article>
             {{content}}
           </article>
+          {% if site.disqus.shortname %}
+          {% include disqus_comments.html %}
+          {% endif %}
           <hr class="boundary">
           <div id="post-share" class="bdsharebuttonbox">
               <a href="#" class="bds_more" data-cmd="more"></a>
