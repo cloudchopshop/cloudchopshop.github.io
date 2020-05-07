@@ -42,11 +42,6 @@ gitment:
 url: "https://cloudchopshop.github.io"
 imgrepo: "https://cloudchopshop.github.io/static/img"
 
-# Disqus Comments
-disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: cloudchopshop
 
 
 #url: "http://127.0.0.1:4000"
