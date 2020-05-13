@@ -26,6 +26,9 @@ We will be using Cognito for customer authentication, https and a valid certific
 - Upload Portal
 ![screenshot](https://cloudchopshop.github.io/screenshots/S3UP_Upload_Portal.png)
 
+### AWS Environment Overview
+![screenshot](https://cloudchopshop.github.io/screenshots/S3UP_Overview.png)
+
 ### Prepare AWS Components
 
 Before getting started its a good idea to confirm your AWS location I will be using us-east-1.
@@ -73,7 +76,7 @@ Before getting started its a good idea to confirm your AWS location I will be us
     Allowed OAuth Scopes: 'openid'<br />
     Domain Name: sizable-file
 
-![screenshot](https://cloudchopshop.github.io/screenshots/S3UP_Cognito_AppClient.png.png)
+![screenshot](https://cloudchopshop.github.io/screenshots/S3UP_Cognito_AppClient.png)
 
 - Collect the Pool ARN from the General Settings Page
 
