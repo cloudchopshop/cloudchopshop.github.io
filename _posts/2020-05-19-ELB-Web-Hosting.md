@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ELB Web Hosting
+title: ELB Web Hosting Cloud Formation Stack
 tags: AWS CloudFormation EC2 IaC
 categories: Cloud
 ---
@@ -54,7 +54,7 @@ This article will step through the use of AWS Cloudformation templates, 'Iac' or
 
 - Resources: Resources are the declared components, configured for deployment (Note: The below snippet shows a collapsed view)
 
-``` json
+``` bash
     },
     "Resources": {
         "LBWEBVPC": {               #VPC and properties
